@@ -15,6 +15,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SEO Fetcher",
   description: "A simple web application that fetches and displays SEO-related data from any given URL. Developed by Daung.",
+  keywords: "SEO Fetcher, SEO, Fetcher, SEO Data, SEO Analysis, SEO Optimization",
+  authors: [
+    {
+      name: "Daung",
+      url: "https://github.com/ShineEnoki",
+    },
+  ],
+  openGraph: {
+    title: "SEO Fetcher",
+    description: "A simple web application that fetches and displays SEO-related data from any given URL. Developed by Daung.",
+    type: "website",
+    locale: "en_US",
+    siteName: "SEO Fetcher",
+  },
 };
 
 export default function RootLayout({
